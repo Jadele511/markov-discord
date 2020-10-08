@@ -87,4 +87,4 @@ async def on_message(message):
     await message.channel.send('Why are we stuck here, Penny?')
 
 
-client.run('NzYzNDk2NDU3MTMwOTk5ODE5.X34jfA.J22pW94CthSzNn4iYufLAcO2cRE')
+client.run(os.environ['DISCORD_TOKEN'])
